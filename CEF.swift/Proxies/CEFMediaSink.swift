@@ -19,9 +19,9 @@ public extension CEFMediaSink {
 
     /// Returns true if this sink is valid.
     /// CEF name: `IsValid`
-    public var isValid: Bool {
+    /*public var isValid: Bool {
         return cefObject.is_valid(cefObjectPtr) != 0
-    }
+    }*/
 
     /// Returns the name of this sink.
     /// CEF name: `GetName`

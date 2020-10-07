@@ -34,10 +34,11 @@ extension CEFResourceBundle {
     /// memory and should not be freed. Include cef_pack_resources.h for a listing
     /// of valid resource ID values.
     /// CEF name: `GetDataResource`
-    public func dataResource(for resourceID: Int) -> (dataBufferPtr: UnsafeMutableRawPointer?, dataSize: size_t)? {
+    /*public func dataResource(for resourceID: Int) -> (dataBufferPtr: UnsafeMutableRawPointer?, dataSize: size_t)? {
         var dataPtr: UnsafeMutableRawPointer? = nil
         var size: size_t = 0
-        let result = cefObject.get_data_resource(cefObjectPtr, Int32(resourceID), &dataPtr, &size)
+        //cefObject.get_data_resource
+        let result = cefObject.get_data_resource(cefObjectPtr, Int32(resourceID))
         return result != 0 ? (dataPtr, size) : nil
     }
     
@@ -55,10 +56,8 @@ extension CEFResourceBundle {
         var size: size_t = 0
         let result = cefObject.get_data_resource_for_scale(cefObjectPtr,
                                                            Int32(resourceID),
-                                                           scale.toCEF(),
-                                                           &dataPtr,
-                                                           &size)
+                                                           scale.toCEF())
         return result != 0 ? (dataPtr, size) : nil
-    }
+    }*/
 
 }

@@ -19,9 +19,9 @@ public extension CEFMediaSource {
 
     /// Returns true if this source is valid.
     /// CEF name: `IsValid`
-    public var isValid: Bool {
+    /*public var isValid: Bool {
         return cefObject.is_valid(cefObjectPtr) != 0
-    }
+    }*/
 
     /// Returns true if this source outputs its content via Cast.
     /// CEF name: `IsCastSource`
