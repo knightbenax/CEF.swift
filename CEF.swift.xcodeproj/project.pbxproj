@@ -1635,6 +1635,8 @@
 				TargetAttributes = {
 					E8456E0F1B52C29700AE93DC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2VV9TDDQG6;
+						ProvisioningStyle = Automatic;
 					};
 					E883E76321A8AAD4002E9EA4 = {
 						CreatedOnToolsVersion = 10.1;
@@ -2329,8 +2331,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2VV9TDDQG6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2345,8 +2350,9 @@
 					"-framework",
 					"\"Chromium Embedded Framework\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.cocoagrinder.CEF-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = io.galactic.CEFswift;
 				PRODUCT_NAME = CEFswift;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules/ChromiumEmbedded";
@@ -2359,8 +2365,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2VV9TDDQG6;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2375,8 +2384,9 @@
 					"-framework",
 					"\"Chromium Embedded Framework\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.cocoagrinder.CEF-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = io.galactic.CEFswift;
 				PRODUCT_NAME = CEFswift;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Modules/ChromiumEmbedded";
